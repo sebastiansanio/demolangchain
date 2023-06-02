@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pip_conf_index_global"
+
+[packages]
+langchain = "*"
+requests = "*"
+black = "*"
+openai = "*"
+google-search-results = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
